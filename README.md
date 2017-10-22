@@ -12,7 +12,7 @@ Get started
 --
 Recupérez les sources :
 ```
-> git clone https://github.com/yaro1976/movie-recommandation
+> git clone https://github.com/yaro972/movie-recommandation
 ```
 Et créez une clef sur le site [The Movie Db](https://www.themoviedb.org/documentation/api)
 
