@@ -2,6 +2,8 @@ Movie Recommandation
 =
 Application React de recommandations de films, suivant critère.
 
+![movie_reco](https://user-images.githubusercontent.com/16259029/31866647-01988e68-b783-11e7-98e9-0da98568caae.PNG)
+
 Cette application s'appuie sur l'API de [The Movie Db](https://www.themoviedb.org/documentation/api)
 
 Résultat dynamique automatique sur saisie de formulaire.
