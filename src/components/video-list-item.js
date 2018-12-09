@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 const IMG_BASE_URL = 'https://image.tmdb.org/t/p/w500/';
 
@@ -9,7 +9,7 @@ const videoListItem = (props) => {
     <li className="list-group-item" onClick={handleOnClick}>
       <div className="media">
         <div className="media-left">
-          <img className="media-object img-rounded" src={`${IMG_BASE_URL}${movie.poster_path}`} height="100px" width="75px" />
+          <img className="media-object img-rounded" src={`${IMG_BASE_URL}${movie.poster_path}`} height="100px" width="75px" alt="Movie poster" />
         </div>
         <div className="media-body">
           <h5 className="title_list_item">{movie.title}</h5>
