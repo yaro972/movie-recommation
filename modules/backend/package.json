@@ -1,0 +1,28 @@
+{
+  "name": "movie-recommation-backend",
+  "version": "1.0.0",
+  "description": "Movie recommandation backend",
+  "main": "app/index.js",
+  "scripts": {
+    "start-server": "node app/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.11.0",
+    "koa-proxy": "^1.0.0-alpha.3",
+    "koa2-simple-proxy": "latest",
+    "@koa/cors": "latest",
+    "koa-router": "latest",
+    "axios": "latest",
+    "koa-combine-routers": "latest"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.11.0",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.3"
+  },
+  "private": true
+}
