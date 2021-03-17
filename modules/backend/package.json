@@ -11,18 +11,19 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "koa": "^2.11.0",
-    "koa-proxy": "^1.0.0-alpha.3",
-    "koa2-simple-proxy": "latest",
     "@koa/cors": "latest",
-    "koa-router": "latest",
+    "@types/koa": "2.13.1",
     "axios": "latest",
-    "koa-combine-routers": "latest"
+    "koa": "^2.11.0",
+    "koa-combine-routers": "latest",
+    "koa-proxy": "^1.0.0-alpha.3",
+    "koa-router": "latest",
+    "koa2-simple-proxy": "latest"
   },
   "devDependencies": {
     "@types/koa": "^2.11.0",
     "ts-node": "^9.0.0",
-    "typescript": "^4.0.3"
+    "typescript": "4.2.3"
   },
   "private": true
 }
